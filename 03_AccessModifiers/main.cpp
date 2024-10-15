@@ -14,7 +14,7 @@ public:
     // methods
     void talk(string text_to_say)
 	{
-		cout << name << " says " << text_to_say << endl;
+		cout << name << " says: " << text_to_say << endl;
 	}
     bool is_dead();
 };
@@ -22,8 +22,8 @@ public:
 int main()
 {
     Player frank;
-  //  frank.name = "Frank";
-  //  cout << frank.health << endl;
-  frank.talk("Hello there");
+//	frank.name = "Frank";	//Cannot access because it is private
+//	cout << frank.health << endl;	//Cannot access because it is private
+	frank.talk("Hello there");
     return 0;
 }
