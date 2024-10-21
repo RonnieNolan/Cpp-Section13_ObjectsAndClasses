@@ -17,12 +17,12 @@ public:
 };
 
 Player::Player() 
-    : Player {"None",0,0} {
+    : Player {"None", 0, 0} {
         cout << "No-args constructor" << endl;
 }
 
 Player::Player(std::string name_val) 
-   : Player {name_val,0, 0}  {
+   : Player {name_val, 0, 0}  {
            cout << "One-arg constructor" << endl;
 }
 
