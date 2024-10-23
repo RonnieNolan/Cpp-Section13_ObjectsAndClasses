@@ -14,16 +14,19 @@ public:
 	{ 
         name = name_val; 
     }
+
     std::string get_name()
 	{
         return name;
     }
+
     Player()
 	{
         name = "None";
         health = 100;
         xp = 3;
     }
+
     Player(std::string name_val, int health_val, int xp_val)
 	{
         name = name_val;
