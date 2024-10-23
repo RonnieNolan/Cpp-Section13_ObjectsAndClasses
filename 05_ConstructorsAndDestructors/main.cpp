@@ -19,14 +19,17 @@ public:
 	{ 
         cout << "No args constructor called"<< endl;
     }
+
     Player(std::string name)
 	{ 
         cout << "String arg constructor called"<< endl;
     }
+
     Player(std::string name, int health, int xp)
 	{
         cout << "Three args constructor called"<< endl; 
     }
+
     ~Player()
 	{ 
         cout << "Destructor called for " << name << endl; 
