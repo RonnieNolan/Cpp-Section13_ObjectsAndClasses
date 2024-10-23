@@ -76,18 +76,18 @@ int main()
 	Monster Lulu {"Lulu", 1, 2};
 	Monster Healthy {"Healthy", 2, 40, 100};
 
-//	char talks [50];
-//	cout << "You say: ";
-//	cin.getline(talks, 50);
-//
-//	Jin_Pop.speak(talks);
-//
-//	char my_name [50];
-//	cout << "\nYour default name is '" << Jin_Pop.get_name() << "'. Choose a new name for your monster: ";
-//	cin.getline(my_name, 50);
-//
-//	Jin_Pop.set_name(my_name);
-//	cout << Jin_Pop.get_name();
+	char talks [50];
+	cout << "You say: ";
+	cin.getline(talks, 50);
+
+	Jin_Pop.speak(talks);
+
+	char my_name [50];
+	cout << "\nYour default name is '" << Jin_Pop.get_name() << "'. Choose a new name for your monster: ";
+	cin.getline(my_name, 50);
+
+	Jin_Pop.set_name(my_name);
+	cout << "Your name now successfully changed to : '" << Jin_Pop.get_name() << "'";
 
 	cout << endl;
 
