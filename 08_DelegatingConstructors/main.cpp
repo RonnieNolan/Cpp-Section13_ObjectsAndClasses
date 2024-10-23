@@ -24,7 +24,7 @@ Player::Player()
 
 Player::Player(std::string name_val) 
    : Player {name_val, 0, 0}
-   {
+	{
            cout << "One-arg constructor" << endl;
 	}
 
